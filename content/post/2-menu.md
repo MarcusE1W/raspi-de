@@ -5,7 +5,7 @@ lastmod: 2018-01-07
 cover: /berries.jpg
 categories: ["Einstieg"]
 tags: ["Raspian Menu"]
-draft: true
+draft:
 ---
 
 

@@ -4,7 +4,7 @@ date: 2018-01-06
 lastmod: 2018-01-07
 categories: ["Einstieg"]
 tags: ["Upgrade", "Scratch2"]
-draft: true
+draft:
 ---
 
 

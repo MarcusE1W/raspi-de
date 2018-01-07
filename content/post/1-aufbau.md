@@ -6,7 +6,7 @@ author: Marcus
 cover: /platine.jpg
 categories: ["Einstieg"]
 tags: ["Aufbauen"]
-draft: true
+draft: 
 ---
 
 

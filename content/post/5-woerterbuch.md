@@ -3,7 +3,7 @@ title: "Woerterbuch"
 date: 2018-01-06T16:39:39Z
 lastmod: 2018-01-07
 categories: ["Woerterbuch"]
-draft: true
+draft:
 ---
 
 Hier werden wichtige englische Begriffe erklaert

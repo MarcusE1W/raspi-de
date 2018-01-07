@@ -1,0 +1,7 @@
+# Write the about text for dream theme
+
+desc = [
+  "First line",
+  "Second line",
+  "Third line"
+]

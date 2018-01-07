@@ -1,0 +1,29 @@
+baseURL = "http://example.org/"
+languageCode = "en-uk"
+title = "Raspberry Pi fuer kleine Coder"
+theme = "dream"
+
+# For Theme dream
+
+# Language default
+defaultContentLanguage = "en" # English i18n
+
+# Turn Google analytics on
+# googleAnalytics = ""
+
+# Turn disqus comments on
+# disqusShortname = ""
+
+# Copyright
+copyright = "par-copyright"
+
+[params]
+  author = "Raspi"
+  motto = "Die Beschreibungen hier sollen helfen den Raspberry Pi zu benutzen und Spass zu haben"
+  description = "par-desc"
+  avatar = "raspberry-logo.jpg"
+  email = "par-email"
+  github = "par-github"
+  linkedin = "par-linkedin"
+  codepen = "par-codepen"
+  stackoverflow = "par-stackoverflow"

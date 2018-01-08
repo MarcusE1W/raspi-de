@@ -19,9 +19,9 @@ copyright = "par-copyright"
 
 [params]
   author = "Raspi"
-  motto = "Die Beschreibungen hier sollen helfen den Raspberry Pi zu benutzen und Spass zu haben"
+  motto = "Die Beschreibungen hier sollen Kindern und jungen Leuten helfen den Raspberry Pi zu benutzen und Spass zu haben"
   description = "par-desc"
-  avatar = "raspberry-logo.jpg"
+  avatar = "/raspberry-logo.jpg"
   email = "par-email"
   github = "par-github"
   linkedin = "par-linkedin"

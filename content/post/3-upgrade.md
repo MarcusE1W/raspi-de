@@ -26,7 +26,7 @@ Wenn das Termianl Fenster geoeffnet ist kann der erste Befehl mit der Tastatur i
 
 [Test](terminal.PNG)
 
-```
+```bash
 sudo apt-get update
 ```
 
@@ -37,10 +37,14 @@ Wenn die ENTER Taste erfolgreich gedrueckt wurde heisst es abwarten bis alles er
 
 
 Wenn der erste Befehl beendet ist kann man direkt den naechsten eingeben.
->```
->sudo apt-get dist-upgrade
->```
 
+<!-- {{< highlight bash >}} -->
+```bash
+sudo apt-get dist-upgrade
+```
+<!-- {{< / highlight >}} -->
+
+1\
 Nachdem der neue Befehl eingegeben ist wieder ![ENTER](enter-key.PNG) auf der Tastatur druecken.
 
 Diesmal wird es etwas laenger dauern bis alles erledigt ist. Zeit fuer einen Snack.
@@ -63,7 +67,7 @@ Um Scratch2 benutzen zu koennen muss die neue Version erst installiert werden.
 
 Nachdem Raspbian auf den letzten Stand gebracht worden ist kann Scratch2 mit diesem Befehl im Terminal installiert werden:
 
->```
+>```bash
 >sudo apt-get install scratch2
 >```
 

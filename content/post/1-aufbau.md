@@ -6,15 +6,16 @@ author: Marcus
 cover: /platine.jpg
 categories: ["Einstieg"]
 tags: ["Aufbauen"]
-draft: 
+draft:
 ---
 
+Wie man den Raspberry Pi zusammenbaut und anschliesst.
 
 <!--more-->
 
 # Der Raspberry Pi
 
-Dies ist der Raspbery Pi. Ein super kleiner mini Computer mit dem man alles machen kann was die grossen Computer koennen, aber mit dem Raspberry Pi macht es mehr Spass.
+Dies ist der Raspbery Pi. Ein super kleiner mini Computer mit dem man alles machen kann was die grossen Computer koennen. Mit dem Raspberry Pi macht es aber mehr Spass.
 
 ![Raspberry Pi](raspberry-pi.png)
 
@@ -25,10 +26,11 @@ Wenn man mit Computern umgeht werden oft Woerter in Englisch benutzt. Darum find
 Um den Raspberry Pi benutzen zu koennen muessen wir zuerst das Gehaeuse zusammenbauen und dann alle Kabel anschliessen
 
 ### Den Kuehlkopf aufsetzen
-Der Prozesser von jedem Computer kann warm werden wenn man ihn benutzt. Darum setzt man meistens einen Kuehlkopf ![Kuehlkopf](Kuehlkopf.png)auf den Prozessor auf.\
-Auf der Unterseite des Kuehlkoerpers ist etwas Termo-Kleber um den Kuepkopf auf den Prozessor zu kleben. Forher muss man nur den Schutzfolie abziehen, dann kann man den Kuehlkopf aufkleben.
+Der Prozesser von jedem Computer kann warm werden wenn man ihn benutzt. Darum kann man einen Kuehlkopf ![Kuehlkopf](kuehlkopf.png) auf den Prozessor kleben. Wenn du keinen Kuehlkopf benutzen willst ist das aber auch kein Problem\
+Auf der Unterseite des Kuehlkopfes ist etwas Termo-Kleber um den Kuehlkopf auf den Prozessor zu kleben. Forher muss man nur den Schutzfolie abziehen, dann kann man den Kuehlkopf aufkleben.
 
 Fertig sieht das dann so aus wie in diesem Bild:
+
 ![Platine mit Kuelkopf](Platine-mit-Kuehlkopf.png)
 
 
@@ -85,5 +87,5 @@ Der Stromanschluss sieht etwa so aus:
 
 Wenn man den Stromstecker in an der Seite neben dem Fernseh-Anschluss einsteckt startet der Raspberry Pi.
 
-insgesamt sieht das in etwa so aus.
+Wenn alles zusammengesteckt ist sieht das in etwa so aus.
 ![Kabel anschliessen](plug-in.gif)

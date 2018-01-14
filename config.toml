@@ -15,7 +15,7 @@ defaultContentLanguage = "en" # English i18n
 # disqusShortname = ""
 
 # Copyright
-copyright = "par-copyright"
+copyright = "Alle nett sein"
 
 [params]
   author = "Raspi"

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scratch2 on Raspberry Pi fuer kleine Coder</title>
+    <link>https://raspi-de.netlify.com/tags/scratch2/</link>
+    <description>Recent content in Scratch2 on Raspberry Pi fuer kleine Coder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Alle nett sein</copyright>
+    <lastBuildDate>Sat, 06 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://raspi-de.netlify.com/tags/scratch2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Programme aktualisieren, Scratch 2 installieren</title>
+      <link>https://raspi-de.netlify.com/post/3-upgrade/</link>
+      <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://raspi-de.netlify.com/post/3-upgrade/</guid>
+      <description>&lt;p&gt;Aktualisiere alle Programme auf deinem Raspberry Pi und dann instaliere Scratch 2&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

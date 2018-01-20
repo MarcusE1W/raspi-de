@@ -10,14 +10,16 @@
   
   
   <meta name="author" content="Raspi" />
-  <meta name="description" content="par-desc" />
+  <meta name="description" content="Aktualisiere alle Programme auf deinem Raspberry Pi und dann instaliere Scratch 2
+
+" />
 
 
 
 <meta name="generator" content="Hugo 0.32.4" />
 
 
-<link rel="canonical" href="https://raspi-de.netlify.com/" />
+<link rel="canonical" href="https://raspi-de.netlify.com/post/3-upgrade/" />
 <link rel="alternative" href="/index.xml" title="Raspberry Pi fuer kleine Coder" type="application/atom+xml" />
 
 <link href="https://cdn.bootcss.com/semantic-ui/2.2.13/semantic.min.css" rel="stylesheet" >
@@ -30,24 +32,115 @@
     <div class="flipper">
       <section class="front">
         
-
-<div class="ui top secondary menu">
+<nav class="ui top secondary menu">
   <div class="item">
     <i class="inverted big link bullseye icon dream-flip-toggle" title="Flip it!"></i>
   </div>
   <div class="item">
-    
-    <i class="disabled inverted big arrow circle outline left icon" title="Previous page"></i>
-    
+    <a href="/">
+      <i class="inverted big home icon" title="Home"></i>
+    </a>
   </div>
-  <div class="item">
-    
-    <i class="disabled inverted big arrow circle outline right icon" title="Next page"></i>
-    
-  </div>
-</div>
+</nav>
  
 <div class="ui centered grid">
+  <div class="fifteen wide mobile fifteen wide tablet eleven wide computer column post-list">
+
+    <section class="ui secondary top attached black segment">
+      <header>
+        <h1 class="ui header">
+          Programme aktualisieren, Scratch 2 installieren
+          <div class="sub header">@ Raspi · Jan 6, 2018 · 2 min read · Update at Jan 7, 2018</div>
+        </h1>
+      </header>
+      <article class="post-content" style="margin-top: 2rem; font-size: 1.4rem;"><p>Aktualisiere alle Programme auf deinem Raspberry Pi und dann instaliere Scratch 2</p>
+
+<p></p>
+
+<h1 id="eine-neue-raspbian-version-und-scratch-2-fuer-den-raspberry-pi">Eine neue Raspbian Version und Scratch 2 fuer den Raspberry Pi</h1>
+
+<p>Um die neueste Version von Scratch 2 zu bekommen die den Raspberry Pi voll unterstuetzt muss das Betriebssystem des Raspberry auf den neuesten Stand gebracht werden. Das Betriebssystem wird Raspbian genannt und wird nun aufgefrischt. In English heist das Uprade.</p>
+
+<h3 id="betriebssystem-upgrade-fuer-raspbian">Betriebssystem Upgrade fuer Raspbian</h3>
+
+<p>Befor es los geht teste das die Internet Verbindung funktioniert. Du kannst dir z.B. die <a href="raspberrypi.org">Raspberry Pi</a> Seite im Internet ansehen. Wenn das klappt geht es los.</p>
+
+<p>Um Raspbian auf den neuesten Stand bringen zu koennen gibt man Text Befehle in einem Terminal ein. Das Terminal kann man starten wenn man das Terminal Icon <img src="terminal-icon.PNG" alt="Terminal-Bild" /> oben links in der Menuleiste <img src="terminal-menu.PNG" alt="Menuleiste" /> anklickt.</p>
+
+<p>Wenn das Termianl Fenster geoeffnet ist kann der erste Befehl mit der Tastatur im Terminal eingegeben werden.</p>
+
+<p><a href="terminal.PNG">Test</a></p>
+
+<pre><code class="language-bash">sudo apt-get update
+</code></pre>
+
+<p>Nachdem der Befehl eingegeben ist drueckt man
+<img src="enter-key.PNG" alt="ENTER" /> auf der Tastatur wie Eltern es aus alten Zeiten noch kennen.</p>
+
+<p>Wenn die ENTER Taste erfolgreich gedrueckt wurde heisst es abwarten bis alles erledigt ist.</p>
+
+<p>Wenn der erste Befehl beendet ist kann man direkt den naechsten eingeben.</p>
+
+<!-- <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> --&gt;
+<span style="color:#e6db74">```</span>bash
+sudo apt-get dist-upgrade
+<span style="color:#e6db74">```</span>
+&lt;!-- </code></pre></div> -->
+
+<p>1<br />
+Nachdem der neue Befehl eingegeben ist wieder <img src="enter-key.PNG" alt="ENTER" /> auf der Tastatur druecken.</p>
+
+<p>Diesmal wird es etwas laenger dauern bis alles erledigt ist. Zeit fuer einen Snack.</p>
+
+<p>Eine kurze Erklaerung was Ihr gerade eingegeben habt:</p>
+
+<ul>
+<li><p><code>sudo</code> ist ein Befehl am Anfang der Zeile um anzugeben das alles was danach kommt mit den Berechtigung eines Systemadministrators ausgefuehrt werden soll. Dies wird eigentlich nur gebraucht um Raspbian upzugraden oder um neue Programme zu installieren.</p></li>
+
+<li><p><code>apt-get</code> ist der eigenliche Befehl der ausgefuehrt wird. verwendet um das System upzugraden oder neue Programme zu instalieren. Nach apt-get kommt dann ein Zusatz der angibt was genau passieren soll.</p></li>
+
+<li><p><code>update</code> sorgt dafuer das Raspian nachschaut welche neuen Programme es gibt. installier wird aber nichts.</p></li>
+
+<li><p><code>dist-upgrade</code> sorgt dafuer das die neueste Betriebssystem Programme installiert werden.</p></li>
+</ul>
+
+<h3 id="scratch-2-fuer-den-raspberry">Scratch 2 fuer den Raspberry</h3>
+
+<p>Um Scratch2 benutzen zu koennen muss die neue Version erst installiert werden.</p>
+
+<p>Nachdem Raspbian auf den letzten Stand gebracht worden ist kann Scratch2 mit diesem Befehl im Terminal installiert werden:</p>
+
+<blockquote>
+<pre><code class="language-bash">sudo apt-get install scratch2
+</code></pre>
+</blockquote>
+
+<p>Nachdem die Installation abgeschlossen ist findet man Scratch2 im Menu.</p>
+
+<p>Das Terminal Fenster kann man jetz schliessen.</p>
+
+<p>Eine Beschreibung in Englisch was alles neu ist in Scratch2 fuer den Raspberry kann <a href="https://www.raspberrypi.org/blog/scratch-2-raspberry-pi/">hier</a> gefunden werden.</p></article>
+    </section>
+
+    <footer class="ui secondary attached segment dream-tags">
+      
+      
+      <a class="ui label" href="/tags/upgrade" title="Upgrade">Upgrade</a>
+      
+      <a class="ui label" href="/tags/scratch2" title="Scratch2">Scratch2</a>
+      
+      
+    </footer>
+
+    
+    <footer class="ui secondary attached segment">
+      Alle nett sein
+    </footer>
+    
+
+    
+
+  </div>
   <div class="fifteen wide mobile fifteen wide tablet four wide computer column">
 
     <section class="ui top attached center aligned inverted segment">
@@ -141,114 +234,6 @@
 </section>
 
   </div>
-  <div class="fifteen wide mobile fifteen wide tablet eleven wide computer column post-list">
-
-    <div class="ui two stackable cards">
-      
-      
-
-        <article class="black card">
-  <div class="image">
-    <div class="ui dimmer">
-      <div class="content">
-        <div class="center">
-          <a href="https://raspi-de.netlify.com/post/1-aufbau/">
-            <h2 class="ui header" style="color: white;">Aufbau</h2>
-          </a>
-          <p style="padding: 5px;">Wie man den Raspberry Pi zusammenbaut und anschliesst.
-
-</p>
-          <p>@ Marcus</p>
-          <div class="ui top right attached black label">3 min read</div>
-          <div class="ui bottom left attached black label">Jan 6, 2018</div>
-        </div>
-      </div>
-    </div>
-    
-    <img src="/platine.jpg" alt="Aufbau">
-    
-  </div>
-</article>
-
-      
-
-        <article class="black card">
-  <div class="image">
-    <div class="ui dimmer">
-      <div class="content">
-        <div class="center">
-          <a href="https://raspi-de.netlify.com/post/2-menu/">
-            <h2 class="ui header" style="color: white;">Menu</h2>
-          </a>
-          <p style="padding: 5px;">dies und das
-
-</p>
-          <p>@ Raspi</p>
-          <div class="ui top right attached black label">2 min read</div>
-          <div class="ui bottom left attached black label">Jan 6, 2018</div>
-        </div>
-      </div>
-    </div>
-    
-    <img src="/berries.jpg" alt="Menu">
-    
-  </div>
-</article>
-
-      
-
-        <article class="black card">
-  <div class="image">
-    <div class="ui dimmer">
-      <div class="content">
-        <div class="center">
-          <a href="https://raspi-de.netlify.com/post/5-woerterbuch/">
-            <h2 class="ui header" style="color: white;">Woerterbuch</h2>
-          </a>
-          <p style="padding: 5px;">Hier werden wichtige englische Begriffe erklaert
-
-</p>
-          <p>@ Raspi</p>
-          <div class="ui top right attached black label">1 min read</div>
-          <div class="ui bottom left attached black label">Jan 6, 2018</div>
-        </div>
-      </div>
-    </div>
-    
-    <img src="/img/default2.jpg" alt="Woerterbuch">
-    
-  </div>
-</article>
-
-      
-
-        <article class="black card">
-  <div class="image">
-    <div class="ui dimmer">
-      <div class="content">
-        <div class="center">
-          <a href="https://raspi-de.netlify.com/post/3-upgrade/">
-            <h2 class="ui header" style="color: white;">Programme aktualisieren, Scratch 2 installieren</h2>
-          </a>
-          <p style="padding: 5px;">Aktualisiere alle Programme auf deinem Raspberry Pi und dann instaliere Scratch 2
-
-</p>
-          <p>@ Raspi</p>
-          <div class="ui top right attached black label">2 min read</div>
-          <div class="ui bottom left attached black label">Jan 6, 2018</div>
-        </div>
-      </div>
-    </div>
-    
-    <img src="/img/default3.jpg" alt="Programme aktualisieren, Scratch 2 installieren">
-    
-  </div>
-</article>
-
-      
-    </div>
-
-  </div>
 </div>
 
       </section>
@@ -289,7 +274,6 @@
       
 
       
-        
       
     </section>
 

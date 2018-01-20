@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspian Menu on Raspberry Pi fuer kleine Coder</title>
+    <link>https://raspi-de.netlify.com/tags/raspian-menu/</link>
+    <description>Recent content in Raspian Menu on Raspberry Pi fuer kleine Coder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Alle nett sein</copyright>
+    <lastBuildDate>Sat, 06 Jan 2018 16:39:39 +0000</lastBuildDate>
+    
+	<atom:link href="https://raspi-de.netlify.com/tags/raspian-menu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Menu</title>
+      <link>https://raspi-de.netlify.com/post/2-menu/</link>
+      <pubDate>Sat, 06 Jan 2018 16:39:39 +0000</pubDate>
+      
+      <guid>https://raspi-de.netlify.com/post/2-menu/</guid>
+      <description>&lt;p&gt;dies und das&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

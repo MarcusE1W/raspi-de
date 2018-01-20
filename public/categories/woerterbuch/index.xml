@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Woerterbuch on Raspberry Pi fuer kleine Coder</title>
+    <link>https://raspi-de.netlify.com/categories/woerterbuch/</link>
+    <description>Recent content in Woerterbuch on Raspberry Pi fuer kleine Coder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Alle nett sein</copyright>
+    <lastBuildDate>Sat, 06 Jan 2018 16:39:39 +0000</lastBuildDate>
+    
+	<atom:link href="https://raspi-de.netlify.com/categories/woerterbuch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Woerterbuch</title>
+      <link>https://raspi-de.netlify.com/post/5-woerterbuch/</link>
+      <pubDate>Sat, 06 Jan 2018 16:39:39 +0000</pubDate>
+      
+      <guid>https://raspi-de.netlify.com/post/5-woerterbuch/</guid>
+      <description>&lt;p&gt;Hier werden wichtige englische Begriffe erklaert&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

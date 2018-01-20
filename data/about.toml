@@ -1,7 +1,7 @@
 # Write the about text for dream theme
 
 desc = [
-  "First line",
-  "Second line",
-  "Third line"
+  "Dies ist ein blog der Kindern und Jugentlichen mit dem Raspberry Pi helfen soll",
+  "",
+  "Viel Spass :-)"
 ]

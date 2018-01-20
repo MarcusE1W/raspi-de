@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Raspberry Pi fuer kleine Coder</title>
+
+  
+  
+  <meta name="author" content="Marcus" />
+  <meta name="description" content="Wie man den Raspberry Pi zusammenbaut und anschliesst.
+
+" />
+
+
+
+<meta name="generator" content="Hugo 0.32.4" />
+
+
+<link rel="canonical" href="https://raspi-de.netlify.com/post/1-aufbau/" />
+<link rel="alternative" href="/index.xml" title="Raspberry Pi fuer kleine Coder" type="application/atom+xml" />
+
+<link href="https://cdn.bootcss.com/semantic-ui/2.2.13/semantic.min.css" rel="stylesheet" >
+<link rel="stylesheet" href="/css/site.css">
+
+</head>
+
+<body>
+  <div class="flip-container">
+    <div class="flipper">
+      <section class="front">
+        
+<nav class="ui top secondary menu">
+  <div class="item">
+    <i class="inverted big link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <a href="/">
+      <i class="inverted big home icon" title="Home"></i>
+    </a>
+  </div>
+</nav>
+ 
+<div class="ui centered grid">
+  <div class="fifteen wide mobile fifteen wide tablet eleven wide computer column post-list">
+
+    <section class="ui secondary top attached black segment">
+      <header>
+        <h1 class="ui header">
+          Aufbau
+          <div class="sub header">@ Marcus · Jan 6, 2018 · 3 min read · Update at Jan 7, 2018</div>
+        </h1>
+      </header>
+      <article class="post-content" style="margin-top: 2rem; font-size: 1.4rem;"><p>Wie man den Raspberry Pi zusammenbaut und anschliesst.</p>
+
+<p></p>
+
+<h1 id="der-raspberry-pi">Der Raspberry Pi</h1>
+
+<p>Dies ist der Raspbery Pi. Ein super kleiner mini Computer mit dem man alles machen kann was die grossen Computer koennen. Mit dem Raspberry Pi macht es aber mehr Spass.</p>
+
+<p><img src="raspberry-pi.png" alt="Raspberry Pi" /></p>
+
+<p>Wenn man mit Computern umgeht werden oft Woerter in Englisch benutzt. Darum findest du in dieser Anleitung auch hier und da einen Hinweis darauf was der englische Ausdruck fuer etwas it. Ganz am ende dieses Textes findest du ein kleines Woerterbuch mit haefig benutzten englischen Ausdruecken.</p>
+
+<h2 id="einen-raspberry-pi-zusammenbauen">Einen Raspberry Pi zusammenbauen</h2>
+
+<p>Um den Raspberry Pi benutzen zu koennen muessen wir zuerst das Gehaeuse zusammenbauen und dann alle Kabel anschliessen</p>
+
+<h3 id="den-kuehlkopf-aufsetzen">Den Kuehlkopf aufsetzen</h3>
+
+<p>Der Prozesser von jedem Computer kann warm werden wenn man ihn benutzt. Darum kann man einen Kuehlkopf <img src="kuehlkopf.png" alt="Kuehlkopf" /> auf den Prozessor kleben. Wenn du keinen Kuehlkopf benutzen willst ist das aber auch kein Problem<br />
+Auf der Unterseite des Kuehlkopfes ist etwas Termo-Kleber um den Kuehlkopf auf den Prozessor zu kleben. Forher muss man nur den Schutzfolie abziehen, dann kann man den Kuehlkopf aufkleben.</p>
+
+<p>Fertig sieht das dann so aus wie in diesem Bild:</p>
+
+<p><img src="Platine-mit-Kuehlkopf.png" alt="Platine mit Kuelkopf" /></p>
+
+<h3 id="die-speicherkarte-einstecken">Die Speicherkarte einstecken</h3>
+
+<p>Als erstes stecken wir die Speicherkarte in den Raspberry Pi. Das geht am einfachsten wenn das Gehaeuse noch nicht zusammengebaut ist.
+Die Speicherkarte wird von der Unterseite wie in diesem Bild gezeigt eingesteckt.</p>
+
+<p><img src="sd-card.jpg" alt="Speicherkarte einsetzen" /></p>
+
+<p>Wenn man will kann man die Karte aber auch rausnehemn und einstecken wenn das Gehaeuse aufgebaut ist.</p>
+
+<p>Die Speicherkarte wird haefig auch <code>Sd-Card</code> genannt. <code>Card</code> ist Englisch fuer Karte.</p>
+
+<h3 id="das-gehaeuse-zusammenbauen">Das Gehaeuse zusammenbauen.</h3>
+
+<p>Der Raspberry Pi muss nicht umbedingt in einem Gehause sitzen, aber damit er besser geschuetzt ist sollte er am besten ordentlich verpackt sein.<br />
+Das Gehaese besteht aus mehreren Teilen die man einzeln zusammensetzen kann.
+<img src="raspberry-pi-3-case.jpg" alt="Gehaese" /></p>
+
+<p>Danach kann man alle anderen Stecker einstecken.</p>
+
+<p>In Englisch wird das Gehaeuse <code>case</code> genannt.</p>
+
+<h3 id="den-fernseher-anschliessen">Den Fernseher anschliessen</h3>
+
+<p>Der Raspberry Pi muss an den Fernseher angeschlossen werden damit wir ein Bild sehen koennen.
+Das Kabel dafuer wird HDMI-Kabe genannt.</p>
+
+<p><img src="hdmi-cable.png" alt="So sieht das HDMI-Kabel aus" /></p>
+
+<p>Das HMDI-Kabel wird and der Seite des Raspberry Pi eingesteckt.</p>
+
+<h3 id="die-funk-tastatur-anschliessen">Die Funk-Tastatur anschliessen</h3>
+
+<p>Die Tastatur <code>(keyboard)</code> ist eine Funk Tastatur <code>(wireless keyboard)</code>. Ausserdem hat die Tastatur ein Trackpad, man braucht also keine zusaetzliche Maus. Um die Tastatur benutzen zu koenne muss der kleine Funkempfaenger in einen der USB-Anscluesse des Raspberry gesteckt werden. Der Raspberry Pi hat view USB-Anscluesse. Der Tastatur-Empfaenger kann in einen der USB-Anschluesse gesteckt werden, es spielt keine Rolle in welchen USB-Stecker man die Tastatur steckt.
+<img src="tastatur-empfaenger.jpg" alt="Tastatur Empaenger einstecken" /></p>
+
+<p>In Englisch ist wird die Tastatur <code>Keyboard</code> genannt.</p>
+
+<h2 id="den-raspberry-pi-einschalten">Den Raspberry Pi einschalten</h2>
+
+<p>Bis jetzt sollten wir dies gemacht haben:
+* die Speicherkarte eingesteckt,
+* das Gehaeuse zusammengebaut
+* den Fernsehe mit dem HDMI-Kabel angeschlossen
+* den Tastatur Funkempfaenger in einen der USB-Anschluesse gesteckt.
+Sehr gut. Jetz muss der Raspberry Pi eingeschlatet werden.</p>
+
+<p>Der Raspberry Pi ist so klein, er hat keinen Ein/Ausschalter. Wenn wir das Stromkabel einstecken wird der Raspberry Pi eingeschaltet.<br />
+Nachher wird auch beschrieben wie man den Raspberry Pi wieder ausschaltet. Man darf naemlich nicht einfach nur das Kabel herausziehen. Also zunaechst einmal nur einschalten.</p>
+
+<p>Der Stromanschluss sieht etwa so aus:
+<img src="power-supply.png" alt="Stromanschluss" /></p>
+
+<p>Wenn man den Stromstecker in an der Seite neben dem Fernseh-Anschluss einsteckt startet der Raspberry Pi.</p>
+
+<p>Wenn alles zusammengesteckt ist sieht das in etwa so aus.
+<img src="plug-in.gif" alt="Kabel anschliessen" /></p></article>
+    </section>
+
+    <footer class="ui secondary attached segment dream-tags">
+      
+      
+      <a class="ui label" href="/tags/aufbauen" title="Aufbauen">Aufbauen</a>
+      
+      
+    </footer>
+
+    
+    <footer class="ui secondary attached segment">
+      Alle nett sein
+    </footer>
+    
+
+    
+
+  </div>
+  <div class="fifteen wide mobile fifteen wide tablet four wide computer column">
+
+    <section class="ui top attached center aligned inverted segment">
+  <div class="ui small circular image">
+    
+    <img src="/raspberry-logo.jpg">
+    
+  </div>
+  <h3 class="ui header">Raspi&#39;s blog<div class="sub header" style="color: white;">Die Beschreibungen hier sollen Kindern und jungen Leuten helfen den Raspberry Pi zu benutzen und Spass zu haben</div>
+  </h3>
+  <a id="tag-category-pop" class="ui red right corner label">
+    <i class="pointing down icon" title="Click this to pop tags and categories"></i>
+  </a>
+</section>
+
+
+<section class="ui attached center aligned inverted segment dream-tags">
+  
+  <a class="ui label" href="/tags/aufbauen" title="aufbauen">aufbauen</a>
+  
+  <a class="ui label" href="/tags/raspian-menu" title="raspian-menu">raspian-menu</a>
+  
+  <a class="ui label" href="/tags/scratch2" title="scratch2">scratch2</a>
+  
+  <a class="ui label" href="/tags/upgrade" title="upgrade">upgrade</a>
+  
+</section>
+
+
+
+<section class="ui attached inverted segment dream-categories">
+  <div class="ui inverted accordion">
+    
+    <div class="title">
+      <i class="dropdown icon"></i>
+      <a href="/categories/einstieg" class="item" style="color: white;">einstieg</a>
+    </div>
+    <div class="content">
+      <div class="ui link inverted list">
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="cocktail icon"></i>
+        <div class="content">
+          <a href="https://raspi-de.netlify.com/post/1-aufbau/" class="item">Aufbau</a>
+        </div>
+      </div>
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="cocktail icon"></i>
+        <div class="content">
+          <a href="https://raspi-de.netlify.com/post/2-menu/" class="item">Menu</a>
+        </div>
+      </div>
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="cocktail icon"></i>
+        <div class="content">
+          <a href="https://raspi-de.netlify.com/post/3-upgrade/" class="item">Programme aktualisieren, Scratch 2 installieren</a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    
+    <div class="title">
+      <i class="dropdown icon"></i>
+      <a href="/categories/woerterbuch" class="item" style="color: white;">woerterbuch</a>
+    </div>
+    <div class="content">
+      <div class="ui link inverted list">
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="cocktail icon"></i>
+        <div class="content">
+          <a href="https://raspi-de.netlify.com/post/5-woerterbuch/" class="item">Woerterbuch</a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="ui bottom attached center aligned inverted segment">
+    
+    <p>© 2018 Raspberry Pi fuer kleine Coder</p>
+    
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+</section>
+
+  </div>
+</div>
+
+      </section>
+      <section class="back">
+        <nav class="ui top secondary menu" style="overflow-x: scroll">
+  <div class="item">
+    <i class="inverted big link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  
+  
+  
+  
+  
+</nav>
+
+<div class="ui centered grid about">
+  <div class="fifteen wide mobile fifteen wide tablet fifteen wide computer column">
+
+    <section class="ui stacked segments">
+      <header class="ui inverted segment">
+        <h2 class="ui header">About</h2>
+      </header>
+
+      <article class="ui inverted segment">
+        
+          <p>Dies ist ein blog der Kindern und Jugentlichen mit dem Raspberry Pi helfen soll</p>
+        
+          <p></p>
+        
+          <p>Viel Spass :-)</p>
+        
+      </article>
+
+      
+      <footer class="ui secondary segment">
+        Alle nett sein
+      </footer>
+      
+
+      
+      
+    </section>
+
+  </div>
+</div>
+
+      </section>
+    </div>
+  </div>
+
+  
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/semantic-ui/2.2.13/semantic.min.js"></script>
+<script src="/js/bg.js"></script>
+<script src="/js/site.js"></script>
+
+
+</body>
+
+</html>
